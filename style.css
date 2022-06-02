@@ -1,0 +1,864 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    
+}
+body{
+ font-family: "Roboto";
+ 
+}
+
+/****header section css */
+.header{
+    background:#122341;
+    padding:25px 0px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1100;
+    width:100%;
+}
+.header .container .row .col-xl-4 a img{
+    height:100px;
+    position: absolute;
+    top:25%;
+}
+.header .container .row .col-xl-8 nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header .container .row .col-xl-8 nav ul li{
+    list-style: none;
+    margin-left: 5px;
+}
+.header .container .row .col-xl-8 nav ul li a{
+    color:#fefbfa;
+    text-decoration: none;
+    font-size:14px;
+}
+.header .container .row .col-xl-8 nav ul li a:hover{
+    color:hotpink;
+}
+.header .container .row .col-xl-8 nav ul i{
+    color:#fefbfa;
+    text-decoration: none;
+    font-size:20px;
+    margin-left: 8px;
+}
+/****header section css */
+.menu{
+    background:#122341;
+    margin-top: 20px;
+    top:15%;
+    width:60%;
+    height:550px;
+    margin-left:35%;
+    position:fixed;
+    right:-100rem;
+    z-index:1100;
+
+}
+.menu.active{
+    right:40px;
+    transition: 0.55s ease-in-out;
+    -webkit-transition: 0.55s ease-in-out;
+    -moz-transition: 0.55s ease-in-out;
+    -ms-transition: 0.55s ease-in-out;
+    -o-transition: 0.55s ease-in-out;
+}
+.menu .container .row .col-xl-8 h2{
+        font-size: 50px;
+        color: rgb(250, 202, 54);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 30px;
+      
+}
+.menu .container .row .col-xl-12 .controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-12 .controls li{
+        font-size: 20px;
+        color: rgb(250, 202, 54);
+        line-height: 0.9;
+        text-align: left;
+        height:35px;
+        width:135px;
+        border:2px solid rgb(250, 202, 54);
+        outline:none;
+        list-style: none;
+        text-align: center;
+        padding: 8px 0px;
+      
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-12 .controls li:hover{
+    background: rgb(250, 202, 54);
+    color:#101311;
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-6{
+    margin-top: 30px;
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-6 .box h3{
+        font-size:20px;
+        color: rgb(255, 238, 183);
+        line-height: 1.765;
+        text-align: left;
+        float: left;
+       
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-6 .box h4{
+        font-size: 22px;
+        color: rgb(255, 238, 183);
+        line-height: 1.765;
+        text-align: left;
+        display: inline-block;
+        margin-left: 20px;
+
+      
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-6 .box p{
+        font-size: 14px;
+        color: rgb(213, 197, 177);
+        line-height: 1.286;
+        text-align: left;
+        float:left
+      
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-6 .box i{
+    display: inline-block;
+    color:#d12509;
+    margin-left:40px;
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-6 .box h5{
+    display: inline;
+    margin-left: 10px;
+}
+
+/****home section css */
+.home{
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom:290px;
+}
+.home .container .row .col-xl-12 h2{
+        font-size: 26.262px;
+        color: rgb(0, 11, 44);
+        font-style: italic;
+        line-height: 2.316;
+        text-align: center;
+        transform: matrix( 5.83164542178041,0,0,5.83164542178042,0,0);
+        -moz-transform: matrix( 5.83164542178041,0,0,5.83164542178042,0,0);
+        -webkit-transform: matrix( 5.83164542178041,0,0,5.83164542178042,0,0);
+        -ms-transform: matrix( 5.83164542178041,0,0,5.83164542178042,0,0); 
+        position: absolute;
+        left:150px;
+        margin-top:120px;
+}
+.home .container .row .col-xl-12 h3{
+        font-size:50px;
+        color: rgb(255, 75, 0);
+        line-height: 0.234;
+        text-align:left;
+        margin-top:290px;
+      
+}
+.home .container .row .col-xl-12 p{
+        font-size:27px;
+        font-family: "Roboto";
+        color: rgb(18, 35, 65);
+        line-height: 1.642;
+        text-align: left;
+        margin-top:60px;
+       
+}
+.home .container .row .col-xl-12 button{
+        font-size:30.628px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 0.826;
+        height:50px;
+        width:200px;
+        background:rgb(255, 75, 0);
+        border:none;
+        outline:none;
+        cursor: pointer;
+        text-align:center;
+        margin-top:35px;
+        border-radius: 20px;
+        -webkit-border-radius:8px;
+        -moz-border-radius:8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+}
+
+/****home section css */
+/****service section css */
+.services{
+    background: #fefbfa;
+    padding-bottom: 100px;
+}
+.services .container .row .col-xl-4 h2{
+        font-size: 100px;
+        color: rgb(0, 11, 44);
+        font-weight: bold;
+        font-style: italic;
+        line-height: 0.902;
+        text-align: left;
+        margin-top: 60px;
+      
+}
+.services .container .row .col-xl-4 button{
+    font-size:30.628px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 0.826;
+    height:50px;
+    width:200px;
+    background:rgb(255, 75, 0);
+    border:none;
+    outline:none;
+    cursor: pointer;
+    text-align:center;
+    margin-top:35px;
+    border-radius: 20px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.services .container .row .col-xl-6 img{
+    height:400px;
+    margin-top: 60px;
+}
+.cold{
+    background-image: url(image3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:60%;
+    padding-bottom: 150px;
+}
+.cold .container .row .col-xl-6 p{
+        font-size: 15.778px;
+        color: rgb(255, 255, 255);
+        line-height: 1.81;
+        text-align: left;
+        margin-top: 90px;
+        margin-left:30px;
+      
+}
+.cold .container .row .col-xl-6 img{
+    position:absolute;
+    left:40%;
+    margin-top: 90px;
+}
+.cold .container .row .col-xl-6 h2{
+    position:absolute;
+    right:-120%;
+    margin-top: 90px;
+    font-size: 100px;
+    color: rgb(0, 11, 44);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0.902;
+}
+.cold .container .row .col-xl-6 button{
+    position: absolute;
+    right:-100%;
+    margin-top:300px; 
+    font-size:30.628px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 0.826;
+    height:50px;
+    width:200px;
+    background:rgb(255, 75, 0);
+    border:none;
+    outline:none;
+    cursor: pointer;
+    text-align:center;
+    border-radius: 20px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+}
+.hot{
+    background-image: url(image4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:60%;
+    padding-bottom: 150px;
+    margin-left:605px;
+}
+.hot .container .row .col-xl-6 p{
+        font-size: 15.778px;
+        color: rgb(255, 255, 255);
+        line-height: 1.81;
+        text-align: left;
+        margin-top: 90px;
+        margin-right:150px;
+      
+}
+.hot .container .row .col-xl-6 img{
+    position:absolute;
+    left:-30%;
+    margin-top: 90px;
+}
+.hot .container .row .col-xl-6 h2{
+    position:absolute;
+    left:-130%;
+    margin-top: 90px;
+    font-size: 100px;
+    color: rgb(0, 11, 44);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0.902;
+}
+.hot .container .row .col-xl-6 button{
+    position: absolute;
+    left:-130%;
+    margin-top:300px; 
+    font-size:30.628px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 0.826;
+    height:50px;
+    width:200px;
+    background:rgb(255, 75, 0);
+    border:none;
+    outline:none;
+    cursor: pointer;
+    text-align:center;
+    border-radius: 20px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+}
+.service{
+    padding-bottom: 100px;
+}
+.service .container .row .col-xl-12 h2{
+        font-size: 30.5px;
+        color: rgb(18, 35, 65);
+        font-weight: bold;
+        line-height: 0.695;
+        text-align: center;
+        margin-top: 90px;
+      
+}
+.service .container .row .col-xl-12 h2 span{
+    color:#f2b59c;
+}
+.service .container .row .col-xl-12 p{
+    color:#ff4a00;
+    margin-top:30px;
+}
+.service .container .row .col-xl-4 img{
+    margin-top:60px;
+    border-radius: 50%;
+    background-color: rgb(255, 234, 208);
+    opacity: 0.8;
+}
+.gift{
+    border-top: 2px solid #122341;
+    border-bottom:2px solid #122341;
+}
+.gift .container .row .col-xl-12{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-top: 10px solid #122341;
+    border-bottom:10px solid #122341; 
+    border-left: 10px solid #122341;
+    border-right:10px solid #122341; 
+}
+.gift .container .row .col-xl-12 .container .row .col-xl-6 h2{
+        position: absolute;
+        top:50%;
+        left:25%;
+        font-size:85px;
+        color: rgb(255, 255, 255);
+        line-height: 1.009;
+    }
+.gift .container .row .col-xl-12 .container .row .col-xl-6 img{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.gift .container .row .col-xl-12 .container .row .col-xl-6 h3{
+        font-size: 60px;
+        color: rgb(18, 35, 65);
+        font-style: italic;
+        line-height: 1.652;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: -90px;
+       
+}
+.gift .container .row .col-xl-12 .container .row .col-xl-6 button{
+        font-size: 50px;
+        color: rgb(18, 35, 65);
+        font-weight: bold;
+        line-height: 1.217;
+        text-align: center;
+        width:400px;
+        height:80px;
+        outline:none;
+        background: #f2b59c;
+        border:2px solid #ff4a00;
+        cursor:pointer;
+      
+}
+.gift .container .row .col-xl-12 .container .row .col-xl-6 p{
+        font-size: 15.594px;
+        color: rgb(18, 35, 65);
+        line-height: 1.463;
+        text-align: center;
+        margin-top:42px;
+      
+}
+/****service section css */
+/****about section css */
+.about .container .row .col-xl-12 h2 {
+        font-size:50.5px;
+        color: rgb(0, 11, 44);
+        font-weight: bold;
+        line-height: 0.314;
+        text-align: center;
+        margin-top:60px;
+}
+.about .container .row .col-xl-11{
+    margin-top:130px;
+    background: #000b2c;
+}
+.about .container .row .col-xl-11 img{
+    margin-top:30px;
+    margin-bottom: 25px;
+}
+.about .container .row .col-xl-11 .container .row .col-xl-6 h3{
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+        line-height: 0.55;
+        text-align: center;
+        margin-top: 60px;
+       
+}
+.about .container .row .col-xl-11 .container .row .col-xl-6 p{
+        font-size:14px;
+        color: rgb(255, 255, 255);
+        line-height: 1.1;
+        text-align: center;
+        margin-top: 80px;
+      
+}
+.open .container .row .col-xl-12 h2{
+        font-size:50.5px;
+        color: rgb(18, 35, 65);
+        font-weight: bold;
+        line-height: 0.314;
+        text-align: center;
+        margin-top: 60px;
+ 
+      
+}
+.open .container .row .col-xl-12 .box{
+        background-color: rgb(35, 62, 106);
+        box-shadow: 4.5px 7.794px 9px 0px rgba(0, 0, 0, 0.64);
+        margin-top: 120px;
+      
+}
+.open .container .row .col-xl-12 .box h3{
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        line-height: 0.55;
+        text-align: center;
+        padding-top: 60px;
+}
+.open .container .row .col-xl-12 .box h4{
+        font-size: 46px;
+        color: rgb(255, 255, 255);
+        line-height: 0.6;
+        text-align: center;
+        padding-bottom:120px;
+        margin-top: 60px;
+}
+/****about section css */
+/****shop section css */
+.shop .container .row .col-xl-12 h2{
+        font-size: 50.5px;
+        color: rgb(18, 35, 65);
+        line-height: 0.314;
+        text-align: center;
+        margin-top: 90px;
+      
+}
+.shop .container .row .col-xl-4{
+    margin-top: 80px;
+}
+.shop .container .row .col-xl-4 .card{
+        background-color: rgb(35, 62, 106);
+        box-shadow: 4.5px 7.794px 9px 0px rgba(0, 0, 0, 0.64);
+}
+.shop .container .row .col-xl-4 .card img {
+    position: relative;
+}
+.shop .container .row .col-xl-4 .card h3 {
+        position: absolute;
+        top:45%;
+        left:10%;
+        font-size:45.628px;
+        color: rgb(255, 255, 255);
+        line-height: 0.826;
+      
+}
+.shop .container .row .col-xl-4 .card .box{
+        background-color: rgb(0, 11, 44);
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom:15px;
+      
+}
+.shop .container .row .col-xl-4 .card .box p{
+        font-size: 14.583px;
+        color: rgb(255, 255, 255);
+        line-height: 1.886;
+        text-align: center;
+        padding:15px 0px;
+}
+/****shop section css */
+/****contact section css */
+.contact .container .row .col-xl-12 h2{
+    font-size: 50.5px;
+    color: rgb(18, 35, 65);
+    line-height: 0.314;
+    text-align: center;
+    margin-top: 90px;
+}
+.contact .container .row .col-xl-6{
+    margin-top:100px;
+}
+.contact .container .row .col-xl-6 .icon i{
+    float: left;
+    font-size: 20px;
+    color:#faca36;
+}
+.contact .container .row .col-xl-6 .icon h3{
+    display: inline-block;
+    margin-left:20px;
+    font-size: 18px;
+    color:#101311;
+}
+.contact .container .row .col-xl-6 form input {
+        background-color: rgb(232, 232, 232);
+        height:51px;
+        border:none;
+        outline:none;
+        margin-top: 25px;
+      
+}
+.contact .container .row .col-xl-6 form input::placeholder{
+        font-size:15px;
+        color: rgb(191, 191, 191);
+        line-height: 3;
+        text-align:left;
+       
+}
+.contact .container .row .col-xl-6 form textarea{
+    margin-top:25px ;
+}
+.btn {
+        border-radius: 5px;
+        background-color: rgb(250, 202, 54);
+        width: 553px;
+        height: 41px;
+        margin-top: 20px;
+      
+}
+.btn:hover{
+    background: orangered;
+    color:#fff;
+}
+/****contact section css */
+/****footer section css */
+.footer{
+    background: #122341;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+.footer .container .row .col-xl-4 .box{
+    margin-top:50px;
+}
+.footer .container .row .col-xl-4 .box img{
+    float: left;
+    height:45px;
+}
+.footer .container .row .col-xl-4 .box h2{
+        display: inline-block;
+        margin-left: 15px;
+        font-size: 37px;
+        color: rgb(252, 248, 245);
+        line-height: 1.652;
+      
+}
+.footer .container .row .col-xl-4 h3{
+        font-size: 33.333px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        line-height: 1.825;
+        margin-top:50px;
+}
+.footer .container .row .col-xl-4 ul li{
+    list-style: none;
+}
+.footer .container .row .col-xl-4 ul li a{
+        font-size: 18.368px;
+        color: rgb(255, 255, 255);
+        line-height: 1.284;
+        margin-top:20px;
+        text-decoration: none;
+      
+}
+.footer .container .row .col-xl-4 .icon{
+    margin-top:200px;
+}
+.footer .container .row .col-xl-4 .icon i{
+    font-size: 30px;
+    color:#ff4a00;
+    margin-left: 20px;
+
+}
+.footer .container .row .col-xl-4 .icon i:hover{
+    color:#fff;
+
+}
+/****footer section css */
+@media(max-width:1200px){
+    .cold{
+        width:100%;
+        padding-bottom:100px;
+    }
+    .cold .container .row .col-xl-6 h2{
+        position:absolute;
+        left:5%;
+        margin-top:250px;
+    }
+    .cold .container .row .col-xl-6 p{
+        font-size: 22.778px;
+    }
+    .cold .container .row .col-xl-6 button{
+        position: absolute;
+        left:5%;
+        margin-top:500px; 
+    
+    
+    }
+    .hot{
+        display: none;
+    }
+    .service .container .row .col-xl-12 h2{
+        margin-top:550px;
+      
+}
+}
+@media(max-width:1024px){
+    .menu .container .row .col-xl-12 .controls li{
+        margin-left:20px;
+    }
+}
+@media(max-width:992px){
+    .home .container .row .col-xl-12 h3{
+        font-size:35px;
+}
+.home .container .row .col-xl-12 p{
+        font-size:20px;
+}
+.cold{
+    width:100%;
+    padding-bottom:100px;
+}
+.cold .container .row .col-xl-6 h2{
+    position:absolute;
+    left:5%;
+    margin-top:250px;
+}
+.cold .container .row .col-xl-6 button{
+    position: absolute;
+    left:5%;
+    margin-top:500px; 
+
+
+}
+}
+@media(max-width:768px){
+    .home .container .row .col-xl-12 h3{
+        font-size:25px;
+    }
+    .home .container .row .col-xl-12 p{
+        font-size:15px;
+    }
+    .cold .container .row .col-xl-6 img{
+        position:absolute;
+        left:10%;
+        margin-top: 90px;
+    }
+    .cold .container .row .col-xl-6 h2{
+        margin-top:590px;
+    }
+    .cold .container .row .col-xl-6 button{
+        margin-top:800px;
+    }
+    .service .container .row .col-xl-12 h2{
+        margin-top:850px;
+    }
+    .service .container .row .col-xl-12 p{
+        font-size: 14px;
+    }
+    .shop .container .row .col-xl-4 .card h3 {
+        position: absolute;
+        top:58%;
+      
+    }
+    .shop .container .row .col-xl-4 .card h3 {
+        top:51%;
+      
+    }
+}
+@media(max-width:600px){
+    .menu{
+        width: 100%;
+        margin-top:60px;
+    }
+    .menu.active{
+        right:0px;
+}
+.menu .container .row .col-xl-8 .container .row .col-xl-6 .box p{
+    display: none;
+}
+.btn {
+    width: 450px;
+  
+}
+
+}
+@media(max-width:500px){
+    .header .container .row .col-xl-8 nav ul li a{
+        font-size:12px;
+    } 
+    .menu{
+        width: 100%;
+        margin-top:60px;
+    }
+    .menu.active{
+        right:0px;
+}
+.home .container .row .col-xl-12 h2{
+    font-size:21px;
+}
+.cold .container .row .col-xl-6 p{
+    font-size: 10.778px;
+}
+.cold .container .row .col-xl-6 img{
+    width:400px;
+}
+.cold .container .row .col-xl-6 h2{
+    margin-top:500px;
+}
+.cold .container .row .col-xl-6 button{
+    margin-top:700px;
+}
+.gift .container .row .col-xl-12 .container .row .col-xl-6 h3{
+    font-size: 40px;
+}
+.gift .container .row .col-xl-12 .container .row .col-xl-6 button{
+    font-size:40px;
+    width:300px;
+    height:80px;
+  
+}
+.about .container .row .col-xl-12 h2 {
+    font-size:35.5px;
+}
+.open .container .row .col-xl-12 .box h3{
+    font-size:35px;
+}
+.open .container .row .col-xl-12 .box h4{
+    font-size:35px;
+}
+.shop .container .row .col-xl-4 .card h3 {
+    position: absolute;
+    top:48%;
+  
+}
+.btn {
+    width: 400px;
+  
+}
+}
+@media(max-width:400px){
+    .header .container .row .col-xl-8 nav ul li a{
+        font-size:10px;
+    } 
+    .home .container .row .col-xl-12 h2{
+        font-size: 15px;
+    }
+    .home .container .row .col-xl-12 h3{
+        font-size:15px;
+    }
+    .home .container .row .col-xl-12 p{
+        font-size:10px;
+    }
+    .home .container .row .col-xl-12 h2{
+        color: rgb(0, 11, 44);
+        font-style: italic;
+        line-height: 2.316;
+        text-align:left;
+        margin-top: 150px;
+}
+.cold .container .row .col-xl-6 img{
+    width:300px;
+    margin-top:140px;
+}
+.gift .container .row .col-xl-12 .container .row .col-xl-6 h3{
+    font-size: 40px;
+}
+.gift .container .row .col-xl-12 .container .row .col-xl-6 button{
+    font-size:35px;
+    width:250px;
+    height:80px;
+  
+}
+.open .container .row .col-xl-12 .box h3{
+    font-size:30px;
+}
+.open .container .row .col-xl-12 .box h4{
+    font-size:35px;
+}
+.shop .container .row .col-xl-4 .card h3 {
+    position: absolute;
+    top:45%;
+  
+}
+.btn {
+    width: 350px;
+  
+}
+}
